@@ -38,3 +38,10 @@ let res = no.reduce(function(total,sum){
     return total+sum
 })
 console.log(res)
+
+//sort 
+
+let number = [11, 52 , 64 , 75 , 74 , 88 , 35]
+
+let order = number.sort((a,b)=>a + b)
+console.log(order)
